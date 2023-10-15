@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-YMusicRPC-b98558d3-8668-4a1f-9ae3-735e12318552</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="/home/alfany/.nuget/packages/km.yandex.music.client/1.5.0/contentFiles/any/net6.0/README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DiscordRichPresence" Version="1.2.1.24" />
+    <PackageReference Include="KM.Yandex.Music.Client" Version="1.5.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+</Project>
